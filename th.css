@@ -33,9 +33,12 @@ body {
 }
 
 .tagline {
+	text-align: right;
 	position: fixed;
   right: 0;
-	top: 55px; 
+	top: 55px;
+	margin: 0;
+	padding: 0;
 }
 
 .right {
@@ -127,6 +130,15 @@ input[type=submit] {
 }
 input[type=submit]:hover {
     background-color: #2fb1c0;
+}
+
+@media screen and (max-width: 350px) {
+.tagline {
+	left: 0;
+	background-color: white;
+	top: 70px;
+	margin: 0;
+	padding: 0;
 }
 
 /* Grid sizing for desktop - mobile is default */
