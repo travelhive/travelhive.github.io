@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+html { height:100%; }
+
+body { 
+	margin:0; 
+	font-family: 'Quattrocento Sans', sans-serif;
+	color: #595959;
+	height: 100%;
+	background-image: url("images/venice.jpg");
+	background-size: cover;
+	background-position: center;
+	} 
+
+/* Grid Sizing for Mobile - mobile first*/
+.container {
+	display: grid; 
+	width: 100%;
+	grid-template-columns: 5% 1fr 5%;
+	justify-content: stretch;
+}
+
+.header {
+	text-align: left;
+	padding: 0 10px;
+	background-color: white;
+	position: fixed;
+  right: 0;
+	left: 0;
+	height: 60px;
+}
+
+.tagline {
+	text-align: left;
+	padding-left: 5px;
+	background-color: white;
+	position: fixed;
+	top: 60px;
+  right: 0;
+	left: 0;
+}
+
+.right {
+	grid-column: 2 / 3;
+	background-color: rgba(71, 71, 71, 0.9);
+	border-radius: 20px;
+	color: white;
+	margin-top: 100px;
+	padding: 20px;
+	justify-self: center;
+	max-width: 350px;
+}
+.logo {
+	width: 100%;
+	max-width: 300px;
+}
+
+/*Tags*/
+h1 {
+  font-size: 2em;
+}
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 0.8em;
+}
+h1, h2, h3 {
+		margin: 5px 0;
+}
+p {
+	font-size: 1em;
+}
+img {
+    display: block;
+}
+
+a {
+	text-decoration: none;
+}
+/* unvisited link */
+a:link {
+  color: #2fb1c0;
+	font-weight: bold;
+}
+/* visited link */
+a:visited {
+  color: #2fb1c0;
+}
+/* mouse over link */
+a:hover {
+  color: #ffc000;
+}
+/* selected link */
+a:active {
+  color: #ef385d;
+}
+
+/*Classes*/
+.center {
+  text-align: center;
+}
+.leftalign {
+	text-align:left;
+}
+.rightalign {
+	text-align:right;
+}
+
+/*Form design*/
+input[type=text], select {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+		max-width: 300px;
+}
+
+input[type=submit] {
+		background-color: #f5a71d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+		font-size: 0.8em;
+}
+
+input[type=submit]:hover {
+    background-color: #2fb1c0;
+}
+
+/* Grid sizing for desktop - mobile is default */
+@media screen and (min-width: 480px) {
+	.logo {
+		width: 400px;
+		max-width: 400px;
+	}
+	.header {
+		grid-column: 2 / 4;
+		height: 80px;
+	}
+	.tagline {
+		top: 80px;
+	}
+	.right {
+		margin-top: 150px;
+	}
+	.tagline {
+		padding-left: 107px;
+	}
+	#contact {
+		font-size: 1.2em;
+	}
+}
+
+@media screen and (min-width: 780px) {
+	.container {
+		grid-template-columns: auto;
+	}
+	.right {
+		position: fixed;
+		right: 15%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.right {
+		right: 20%;
+	}
+}
