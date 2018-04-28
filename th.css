@@ -29,17 +29,13 @@ body {
 	position: fixed;
   right: 0;
 	left: 0;
-	height: 60px;
+	height: 80px;
 }
 
 .tagline {
-	text-align: left;
-	padding-left: 80px;
-	background-color: white;
 	position: fixed;
-	top: 60px;
   right: 0;
-	left: 0;
+	top: 55px; 
 }
 
 .right {
@@ -74,7 +70,7 @@ p {
 	font-size: 1em;
 }
 img {
-    display: block;
+    display: inline-block;
 }
 
 a {
@@ -119,7 +115,6 @@ input[type=text], select {
     border-radius: 4px;
 		max-width: 300px;
 }
-
 input[type=submit] {
 		background-color: #f5a71d;
     color: white;
@@ -130,7 +125,6 @@ input[type=submit] {
     cursor: pointer;
 		font-size: 0.8em;
 }
-
 input[type=submit]:hover {
     background-color: #2fb1c0;
 }
@@ -143,11 +137,12 @@ input[type=submit]:hover {
 	}
 	.header {
 		grid-column: 2 / 4;
-		height: 80px;
+		height: 105px;
 	}
 	.tagline {
-		top: 80px;
-		padding-left: 105px;
+		position: fixed;
+		right: 0;
+		top: 75px; 
 	}
 	.right {
 		margin-top: 150px;
@@ -156,7 +151,7 @@ input[type=submit]:hover {
 		font-size: 1.2em;
 	}
 	body {
-	background-image: url("images/venicemd.jpg");
+		background-image: url("images/venicemd.jpg");
 	}
 }
 
@@ -176,8 +171,5 @@ input[type=submit]:hover {
 @media screen and (min-width: 1200px) {
 	.right {
 		right: 20%;
-	}
-	body {
-	background-image: url("images/venice.jpg");
 	}
 }
