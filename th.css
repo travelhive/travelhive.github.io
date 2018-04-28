@@ -1,9 +1,7 @@
 * {
     box-sizing: border-box;
 }
-
 html { height:100%; }
-
 body { 
 	margin:0; 
 	font-family: 'Quattrocento Sans', sans-serif;
@@ -13,7 +11,6 @@ body {
 	background-size: cover;
 	background-position: center;
 	} 
-
 /* Grid Sizing for Mobile - mobile first*/
 .container {
 	display: grid; 
@@ -21,7 +18,6 @@ body {
 	grid-template-columns: 5% 1fr 5%;
 	justify-content: stretch;
 }
-
 .header {
 	text-align: left;
 	padding: 0 10px;
@@ -31,7 +27,6 @@ body {
 	left: 0;
 	height: 80px;
 }
-
 .tagline {
 	text-align: right;
 	position: fixed;
@@ -40,7 +35,6 @@ body {
 	margin: 0;
 	padding: 0;
 }
-
 .right {
 	grid-column: 2 / 3;
 	background-color: rgba(71, 71, 71, 0.9);
@@ -55,7 +49,6 @@ body {
 	width: 100%;
 	max-width: 300px;
 }
-
 /*Tags*/
 h1 {
   font-size: 2em;
@@ -75,7 +68,6 @@ p {
 img {
     display: inline-block;
 }
-
 a {
 	text-decoration: none;
 }
@@ -96,7 +88,6 @@ a:hover {
 a:active {
   color: #ef385d;
 }
-
 /*Classes*/
 .center {
   text-align: center;
@@ -107,7 +98,6 @@ a:active {
 .rightalign {
 	text-align:right;
 }
-
 /*Form design*/
 input[type=text], select {
     width: 100%;
@@ -131,7 +121,6 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #2fb1c0;
 }
-
 @media screen and (max-width: 350px) {
 .tagline {
 	left: 0;
@@ -139,9 +128,8 @@ input[type=submit]:hover {
 	top: 70px;
 	margin: 0;
 	padding: 0;
+	}
 }
-}
-
 /* Grid sizing for desktop - mobile is default */
 @media screen and (min-width: 480px) {
 	.logo {
@@ -167,7 +155,6 @@ input[type=submit]:hover {
 		background-image: url("images/venicemd.jpg");
 	}
 }
-
 @media screen and (min-width: 780px) {
 	.container {
 		grid-template-columns: auto;
@@ -180,7 +167,6 @@ input[type=submit]:hover {
 	background-image: url("images/venicelg.jpg");
 	}
 }
-
 @media screen and (min-width: 1200px) {
 	.right {
 		right: 20%;
