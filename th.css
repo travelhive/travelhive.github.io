@@ -63,7 +63,7 @@ h1, h2, h3 {
 		margin: 5px 0;
 }
 p {
-	font-size: 1em;
+	font-size: 0.8em;
 }
 img {
     display: inline-block;
@@ -82,7 +82,7 @@ a:visited {
 }
 /* mouse over link */
 a:hover {
-  color: #ffc000;
+  color: #f5a71d;
 }
 /* selected link */
 a:active {
@@ -98,6 +98,12 @@ a:active {
 .rightalign {
 	text-align:right;
 }
+.gold {
+	color: #ffc000;
+}
+.blue {
+	color: #2fb1c0;
+}
 /*Form design*/
 input[type=text], select {
     width: 100%;
@@ -109,7 +115,7 @@ input[type=text], select {
 		max-width: 300px;
 }
 input[type=submit] {
-		background-color: #f5a71d;
+		background-color: #2fb1c0;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -119,7 +125,7 @@ input[type=submit] {
 		font-size: 0.8em;
 }
 input[type=submit]:hover {
-    background-color: #2fb1c0;
+    background-color: #f5a71d;
 }
 @media screen and (max-width: 350px) {
 .tagline {
