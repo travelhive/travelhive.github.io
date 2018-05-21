@@ -104,6 +104,10 @@ a:active {
 .blue {
 	color: #2fb1c0;
 }
+.smallCaps {
+    font-variant: small-caps;
+}
+}
 /*Form design*/
 input[type=text], select {
     width: 100%;
