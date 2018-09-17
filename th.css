@@ -18,6 +18,8 @@ body {
 	grid-template-columns: 5% 1fr 5%;		
 	justify-content: stretch;
 	justify-items: stretch;
+	align-items: stretch;
+	padding-bottom: 30px;
 }
 .header {
 	text-align: left;
@@ -57,10 +59,11 @@ body {
 .span {
 	grid-column: 1 / 4;
 	text-align: center;
-	height: 75px;
+	padding: 45px 0px;;
+	align-self: center;
 }
 .white {
-	background-color: white;
+	background-color: rgba(71, 71, 71, 0.9);
 	grid-column: 1 / 4;
 }
 .works {
@@ -83,15 +86,18 @@ body {
 }
 /*Tags*/
 h1 {
-	font-size: 2em;
+	font-size: 2.5em;
 }
 h2 {
-	font-size: 1em;
+	font-size: 2.1em;
 }
 h3 {
+	font-size: 1.1em;
+}
+h4 {
 	font-size: 0.8em;
 }
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	margin: 5px 0;
 }
 p {
@@ -135,6 +141,9 @@ a:active {
 }
 .blue {
 	color: #2fb1c0;
+}
+.textWhite {
+	color: white;
 }
 .smallCaps {
     font-variant: small-caps;
@@ -219,8 +228,6 @@ input[type=submit]:hover {
 	}
 	.white { 
 		grid-column: 1 / 7;
-		padding-bottom: 50px;
-		padding-top: 30px;
 	}
 	.span {
 		grid-column: 1 / 7;	
