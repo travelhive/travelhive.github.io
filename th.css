@@ -63,7 +63,7 @@ body {
 	align-self: center;
 }
 .white {
-	background-color: rgba(71, 71, 71, 0.9);
+	background-color: white;
 	grid-column: 1 / 4;
 }
 .works {
