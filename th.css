@@ -21,7 +21,6 @@ body {
 	grid-column: 1 / 4;
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
 	width: 100%;
 }
 .background1 {
@@ -29,7 +28,7 @@ body {
 	padding: 150px 5% 200px;
 }
 .background2 {
-	background-image: url("images/venicesm.jpg");
+	background-image: url("images/travelPlanningsm.jpeg");
 	padding: 40px 5% 15px;
 }
 .header {
@@ -239,7 +238,7 @@ input[type=submit]:hover {
 		justify-self: center;
 	}
 	.background2 {
-		background-image: url("images/venicemd.jpg");
+		background-image: url("images/travelPlanningmd.jpeg");
 		padding-top: 120px;
 		padding-bottom: 120px;
 	}
@@ -312,7 +311,7 @@ input[type=submit]:hover {
 		padding: 200px 5% 300px;
 	}
 	.background2 {
-		background-image: url("images/venicelg.jpg");
+		background-image: url("images/travelPlanninglg.jpeg");
 		padding: 100px 5% 100px;
 	}
 	.col-1 {
@@ -334,7 +333,6 @@ input[type=submit]:hover {
 	}
 	.signup {
 		grid-column: 4 / 6;
-		margin-left: 9%;
 	}
 	.bottomLinks {
 		text-align: left;
