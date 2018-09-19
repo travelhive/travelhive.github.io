@@ -42,9 +42,7 @@ body {
 .cite {
 	grid-column: 2 / 3;
 	font-size: 1em;
-	text-align: left;
-	
-	/*edit so that links are grey and darker grey*/
+	text-align: center;
 }
 .header {
 	text-align: left;
@@ -90,6 +88,8 @@ body {
 }
 .bottomLinks {
 	padding: 25px 0 15px;
+	text-align: center;
+	grid-column: 2 / 3;
 }
 .howSpan {
 	grid-column: 1 / 4;
@@ -111,9 +111,17 @@ body {
 	max-width: 120px;
 	min-width: 100px;
 	padding: 10px;
+	text-align: center;
+}
+.socialMediaIcon {
+	width: 50px;
+	margin: 20px 10px;
+	grid-column: 2 /3;
 }
 .socialMedia {
-	width: 50px;
+	grid-column: 2 / 3;
+	text-align: center;
+	justify-self: center;
 }
 .description {
 	grid-column: 2 / 3;
@@ -198,9 +206,6 @@ a.cite:active {
 }
 .smallCaps {
     font-variant: small-caps;
-}
-.floatRight {
-	float: right;
 }
 
 /*Form design*/
@@ -320,6 +325,12 @@ input[type=submit]:hover {
 		grid-column: 2 / 6;
 		font-size: 1.1em;
 	}
+	.socialMedia {
+		grid-column: 2 / 6;
+	}
+	.bottomLinks {
+		grid-column: 2 / 6;
+	}
 }
 @media screen and (min-width: 780px) {
 	.background1 {
@@ -355,6 +366,15 @@ input[type=submit]:hover {
 	.signup2 {
 		grid-column: 4 / 6;
 	}
+	.socialMedia {
+		text-align: right;
+		grid-column: 4 / 6;
+	}
+	.bottomLinks {
+		text-align: left;
+		grid-column: 2 / 4;
+	}
+	
 }
 @media screen and (min-width: 1200px) {
 	.background1 {
