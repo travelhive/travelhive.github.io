@@ -191,20 +191,17 @@ a.linkStyle:hover, a.bottomLinkStyle:hover {
 a.linkStyle:active, a.bottomLinkStyle:active {
 	color: #ef385d;
 }
-a.cite:link {
+a.cite:link, a.pressLink:link {
 	color: #595959;
 }
-a.cite:visited {
+a.cite:visited, a.pressLink:visited {
 	color: #505050;
 }
-a.cite:hover {
+a.cite:hover, a.pressLink:hover {
 	color: #707070;
 }
-a.cite:active {
+a.cite:active, a.pressLink:active {
 	color: #505050;
-}
-a.pressLink: link {
-	
 }
 /*Classes*/
 .leftalign {
