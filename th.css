@@ -118,8 +118,10 @@ footer {
 }
 .signup {
 	grid-column: 2 / 3;
+	/*
 	background-color: rgba(71, 71, 71, 0.9);
 	border-radius: 20px;
+	*/
 	color: white;
 	margin: 30px auto;
 	padding: 20px;
