@@ -1,6 +1,8 @@
+/*
 * {
     box-sizing: border-box;
 }
+*/
 html { height:100%; }
 body { 
 	margin:0; 
@@ -79,8 +81,8 @@ footer {
 	grid-column: 2 / 3;
 	/*
 	background-color: rgba(71, 71, 71, 0.9);
-	*/
 	border-radius: 20px;
+	*/
 	color: white;
 	padding: 20px;
 	max-width: 500px;
@@ -283,7 +285,7 @@ input[type=submit]:hover {
 	}
 	.background1 {
 		background-image: url("images/venicemd.jpg");
-		padding: 200px 5% 300px;
+		padding: 250px 5% 250px;
 		justify-self: center;
 	}
 	.background2 {
@@ -326,8 +328,11 @@ input[type=submit]:hover {
 	}
 	.description {
 		grid-column: 2 / 6;
+		/*
 		margin-left: auto;
 		margin-right: auto;
+		*/
+		margin-left: 5%;
 	}
 	.confirm {
 		grid-column: 2 / 6;
@@ -363,7 +368,7 @@ input[type=submit]:hover {
 @media screen and (min-width: 780px) {
 	.background1 {
 		background-image: url("images/venicelg.jpg");
-		padding: 200px 5% 300px;
+		padding: 320px 5% 250px;
 	}
 	.background2 {
 		background-image: url("images/travelPlanninglg.jpeg");
@@ -376,7 +381,7 @@ input[type=submit]:hover {
 	.description {
 		grid-column: 2 / 5;
 		width: 440px;
-		margin-left: 9%;
+		margin-left: 15%;
 	}
 	.signup {
 		grid-column: 4 / 6;
@@ -412,7 +417,7 @@ input[type=submit]:hover {
 }
 @media screen and (min-width: 1200px) {
 	.background1, .background3 {
-		padding: 200px 5% 400px;
+		padding: 350px 5% 250px;
 	}
 	.background2 {
 		padding: 120px 10% 120px;
@@ -420,5 +425,6 @@ input[type=submit]:hover {
 	.description {
 		grid-column: 2 / 5;
 		width: 550px;
+		margin-left: 15%;
 	}
 }
