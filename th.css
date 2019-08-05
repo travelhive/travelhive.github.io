@@ -211,13 +211,14 @@ a {
     text-transform: uppercase
 }
 
+/*
 @media(min-width: 767px) {
     .h6--alt {
         font-size:16px;
         font-size: 1.6rem
     }
 }
-
+*/
 .h6--alt.extra-space {
     margin-bottom: 0
 }
