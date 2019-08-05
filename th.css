@@ -199,6 +199,40 @@ img {
 a {
 	text-decoration: none;
 }
+
+
+.h6--alt {
+    font-weight: 500;
+    line-height: 2.4rem;
+    letter-spacing: .2rem;
+    margin-bottom: 2rem;
+    font-size: 16px;
+    font-size: 1.6rem;
+    text-transform: uppercase
+}
+
+@media(min-width: 767px) {
+    .h6--alt {
+        font-size:16px;
+        font-size: 1.6rem
+    }
+}
+
+.h6--alt.extra-space {
+    margin-bottom: 0
+}
+
+.h6--alt::before {
+    content: '';
+    display: inline-block;
+    height: 3px;
+    width: 50px;
+    background-color: currentColor;
+    vertical-align: middle;
+    margin-right: .75rem
+}
+
+
 /*Links*/
 /* unvisited link */
 a.linkStyle:link, a.bottomLinkStyle:link {
