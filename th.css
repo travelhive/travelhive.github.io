@@ -202,7 +202,10 @@ a {
 
 .THBeta {
 	font-weight: 500;
-	font-size: 1.8em;
+	font-size: 1.2em;
+}
+.noSpace {
+	letter-spacing: -4px;
 }
 
 /* Attempting line before TravelHive Wording
