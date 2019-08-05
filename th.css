@@ -42,7 +42,7 @@ body {
 }
 header {
 	text-align: left;
-	padding: 0 10px;
+	padding: 0;
 	background-color: white;
 	position: fixed;
 	right: 0;
@@ -314,7 +314,7 @@ input[type=submit]:hover {
 		grid-template-columns: 5% 22% 22% 22% 22% 5%;
 	}
 	.background1, .background2, .background3 {
-		grid-column: 1 / 7;
+		grid-column: 1 / 8;
 	}
 	.background1 {
 		background-image: url("images/venicemd.jpg");
