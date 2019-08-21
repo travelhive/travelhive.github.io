@@ -30,7 +30,8 @@ body {
 }
 .background1 {
 	background-image: url("images/venicesm.jpg");
-	padding: 150px 5% 5px;
+	max-height: 100vh;
+	padding: 30vh 5% 5px;
 }
 .background2 {
 	background-image: url("images/travelPlanningsm.jpeg");
@@ -361,7 +362,7 @@ input[type=submit]:hover {
 	}
 	.background1 {
 		background-image: url("images/venicemd.jpg");
-		padding: 250px 5% 250px;
+		padding: 30vh 5% 250px;
 		justify-self: center;
 	}
 	.background2 {
@@ -446,7 +447,7 @@ input[type=submit]:hover {
 @media screen and (min-width: 780px) {
 	.background1 {
 		background-image: url("images/venicelg.jpg");
-		padding: 320px 5% 250px;
+		padding: 30vh 5% 250px;
 	}
 	.background2 {
 		background-image: url("images/travelPlanninglg.jpeg");
@@ -494,11 +495,14 @@ input[type=submit]:hover {
 	}
 }
 @media screen and (min-width: 1200px) {
-	.background1, .background3 {
-		padding: 350px 5% 250px;
+	.background1 {
+		padding: 30vh 5% 250px;
 	}
 	.background2 {
 		padding: 120px 10% 120px;
+	}
+	.background3 {
+		padding: 350px 5% 250px;
 	}
 	.description {
 		grid-column: 2 / 5;
