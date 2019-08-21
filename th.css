@@ -31,7 +31,7 @@ body {
 .background1 {
 	background-image: url("images/venicesm.jpg");
 	max-height: 100vh;
-	padding: 70px 5% 5px;
+	padding: 70px 5% 100px;
 }
 .background2 {
 	background-image: url("images/travelPlanningsm.jpeg");
@@ -447,7 +447,7 @@ input[type=submit]:hover {
 @media screen and (min-width: 780px) {
 	.background1 {
 		background-image: url("images/venicelg.jpg");
-		padding: 30vh 5% 250px;
+		padding: 30vh 5% 300px;
 	}
 	.background2 {
 		background-image: url("images/travelPlanninglg.jpeg");
@@ -496,7 +496,7 @@ input[type=submit]:hover {
 }
 @media screen and (min-width: 1200px) {
 	.background1 {
-		padding: 30vh 5% 250px;
+		padding: 30vh 5% 350px;
 	}
 	.background2 {
 		padding: 120px 10% 120px;
